@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+:root{
+    --fonte_padrao: Arial, Verdana, sans-serif;
+    --fonte_titulo: serif;
+    --cor1: #DAFDBA;
+    --cor2: #9AEBA3;
+    --cor3: #45C4B0;
+    --cor4: #13678A;
+    --cor5: #012030;
+}
+
+body{background-color: rgba(250, 235, 215, 0.688);}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+}
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    
+}
+nav a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--cor4);
+    color: rgb(199, 198, 198);
+    border-radius: 8px 8px 0px 0px;
+    transition-duration: .5s;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    min-height: 280px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
+}
+
+main h1{
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonte_titulo);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.504);
+}
+
+main p{
+    text-align: justify;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-indent: 30px;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+p.citacao {
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Altura total da viewport */
+    margin: auto;
+}
+
+.meu-botao {
+    background-color: var(--cor4); /* cor de fundo */
+    border: none; /* remove a borda */
+    color: white; /* cor do texto */
+    padding: 15px 32px; /* espaçamento dentro do botão */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* remove decoração de texto */
+    display: inline-block; /* faz o botão comportar-se como um elemento de bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem externa */
+    cursor: pointer; /* cursor ao passar por cima */
+    border-radius: 8px; /* bordas arredondadas */
+}
+
+.meu-botao:hover{
+    background-color: var(--cor3);
+    transition-duration: .5s;
+    color: var(--cor5);
+}
+
