@@ -58,7 +58,7 @@ main{
     margin-bottom: 30px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 main h1{
@@ -94,6 +94,10 @@ article a{
 
 article a:hover{
     text-decoration:underline;
+}
+
+article h1{
+    font-size: 2em;
 }
 
 article h2{
@@ -166,5 +170,21 @@ p.social{
     background-color: var(--cor3);
     transition-duration: .5s;
     color: var(--cor5);
+}
+
+article img{
+    padding-top: 30px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 120px;
+    max-height: 120px;
 }
 
