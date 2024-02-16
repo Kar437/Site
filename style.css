@@ -110,7 +110,6 @@ p.citacao {
     font-size: large;
     text-align: center;
     padding: 30px;
-    margin: auto;
 }
 
 
@@ -174,8 +173,6 @@ p.social{
 
 article img{
     padding-top: 30px;
-    width: 100px;
-    height: 100px;
     margin-left: 10px;
     margin-bottom: 10px;
     display: block;
