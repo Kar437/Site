@@ -89,7 +89,8 @@ article p{
 article a{
     text-decoration: none;
     font-weight: bolder;
-    color: black;
+    color: var(--cor4);
+
 }
 
 article a:hover{
@@ -101,8 +102,24 @@ article h1{
 }
 
 article h2{
+    padding-top: 20px;
     padding-left: 20px;
     font-family: var(--fonte_titulo);
+}
+
+article ol{
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+article ul{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+article code{
+    font-size: 1.3em;
+    font-style: italic;
 }
 
 p.citacao {
@@ -165,13 +182,33 @@ p.social{
     border-radius: 8px; /* bordas arredondadas */
 }
 
+.botao {
+    background-color: var(--cor4); /* cor de fundo */
+    border: none; /* remove a borda */
+    color: white; /* cor do texto */
+    padding: 15px 70px; /* espaçamento dentro do botão */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* remove decoração de texto */
+    display: inline-block; /* faz o botão comportar-se como um elemento de bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem externa */
+    cursor: pointer; /* cursor ao passar por cima */
+    border-radius: 8px; /* bordas arredondadas */
+}
+
 .meu-botao:hover{
     background-color: var(--cor3);
     transition-duration: .5s;
     color: var(--cor5);
 }
 
-article img{
+.botao:hover{
+    background-color: var(--cor3);
+    transition-duration: .5s;
+    color: var(--cor5);
+}
+
+.logo{
     padding-top: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -183,5 +220,15 @@ article img{
     min-height: 80px;
     max-width: 120px;
     max-height: 120px;
+}
+
+.img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    min-width: 280px;
+    max-width: 600px;
+    padding-bottom: 20px;
+
 }
 
