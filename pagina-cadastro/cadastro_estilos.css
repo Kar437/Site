@@ -11,6 +11,22 @@
     margin: 0px;
 }
 
+nav{
+    background-color: rgba(128, 128, 128, 0.345);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
 main{
     background-color: rgb(255, 255, 255);
     max-width: 700px;
@@ -61,10 +77,15 @@ h1{
 }
 
 .botao{
-width: 70px;
-height: 30px;
+width: 90px;
+height: 35px;
 border-radius: 10px;
-
+margin: 10px;
+box-shadow:  3px 3px 5px rgba(0, 0, 0, 0.474);
 
 }
 
+.botao:hover{
+    box-shadow:  0px 0px 0px black;
+  background-color: ghostwhite;
+}
