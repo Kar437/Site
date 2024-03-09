@@ -233,3 +233,10 @@ p.social{
 
 }
 
+.listas{
+    font-size: 1.2em;
+}
+
+.listas > li{
+    margin-bottom: 10px;
+}
