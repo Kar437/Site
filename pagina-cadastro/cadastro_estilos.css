@@ -9,23 +9,7 @@
 *{
     padding: 0px;
     margin: 0px;
-}
 
-nav{
-    background-color: rgba(128, 128, 128, 0.345);
-    text-align: center;
-    padding: 10px;
-}
-
-nav a{
-    margin: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
 
 main{
     background-color: rgb(255, 255, 255);
