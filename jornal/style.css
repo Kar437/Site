@@ -89,7 +89,8 @@ div.membros{
     display: block;
     background-color: rgb(213, 213, 213);
     text-align: left;
-    width: 30vw;
+    min-width: 100px;
+    max-width: 150px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 25px;
@@ -101,7 +102,6 @@ div.membros{
 }
 
 div.membros  h3{
-    font-size: 1.5em;
     margin: 10px;
 }
 
