@@ -65,18 +65,49 @@ nav a:hover{
 }
 
 main h1{
+    font-size: 2.5em;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 main h2{
+    font-size: 1.7em;
     padding: 10px;
+    padding-top: 20px;
 }
 
 main p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.6em;
     text-indent: 20px;
     padding: 10px;
+}
+
+div.membros{
+    display: block;
+    background-color: rgb(213, 213, 213);
+    text-align: left;
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    list-style-position: inside;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.498);
+    
+}
+
+div.membros  h3{
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+div.membros  li{
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
 
