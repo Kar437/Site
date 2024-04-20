@@ -26,7 +26,7 @@ div.logo_jornal{
 
 
 nav#itens {
-    display: block;
+    display: none;
     padding: 10px;
     text-align: center;
     border-top: 1px solid black;
@@ -112,3 +112,29 @@ footer a {
 footer a:hover{
     text-decoration: underline;
 }
+
+
+/* Pagína sobre */
+
+div#equipe{
+    display: block;
+    text-align: left;
+
+    background-color: #004aab61;
+
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 80vw;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.498);
+}
+
+div#equipe h3{
+    padding: 10px 0px 10px 10px;
+}
+
+.social{
+    display:  inline;
+}
+
+
