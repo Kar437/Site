@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="media-queries.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     
 </head>
 <body>
     <header>
-        <div class="logo_jornal">img</div>
-        <div class="titulo"> <h1>Tecnologia</h1></div>
-        <div class="logo_acm">img</div>
-    </header>
-    <nav>
-        <a href="#">Ultimas Noticias</a>
-        <a href="#">Mais lidas</a>
+        <span class="material-symbols-outlined" id="menu" onclick="Menu()"> menu </span>
+        <div class="logo_jornal"><img src="imgens/logo-small.png" alt="Logo do jornal"></div>
 
+        
+    </header>
+
+    <nav id="itens">
+        <ul>
+            <li><a href="#">Todas as notícas</a></li> 
+
+            <li><a href="#">Últimas notícias</a></li> 
+
+            <li><a href="#">As mais lidas</a></li> 
+
+            <li><a href="sobre.html">Sobre nós</a></li> 
+        </ul>
     </nav>
 
     <main>
@@ -37,7 +46,7 @@
 
         <div class="membros">
         <ul>
-            <h3>Participantes:</h3>
+            <h3>Por:</h3>
             <li>Karlos</li>
             <li>Murylo</li>
             <li>Raul</li>
@@ -50,5 +59,19 @@
     <footer>
         <p>Desenvolvido por <a href="https://github.com/Kar437">Kar437</a></p>
     </footer>
+
+    <script>
+        function Menu() {
+            const itens = document.getElementById('itens');
+            const isHidden = itens.style.display === 'none' || itens.style.display === ''; // Se está oculto ou indefinido
+
+            if (isHidden) {
+                itens.style.display = 'block'; // Mostrar
+            } else {
+                itens.style.display = 'none'; // Ocultar
+            }
+        }
+    </script>
+
 </body>
 </html>

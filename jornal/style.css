@@ -8,42 +8,25 @@
 header{
     display: flex;
     justify-content: space-between;
-
     padding: 20px;
+    border-bottom: 1px solid black;
 }
 
-.logo_jornal {
-    /* Alinhado à esquerda */
-    order: 1;
-}
-
-.titulo {
-    /* Alinhado ao centro */
-    order: 2;
-}
-
-.logo_acm {
-    /* Alinhado à direita */
-    order: 3;
+span#menu{
+    display: block;
+    padding: 5px;
 }
 
 
 div.logo_jornal{
     display: inline-block;
-    margin-left: 5%;
+    margin: auto;    
     
 }
 
-div.logo_acm{
-    display: inline-block;
-    margin-right: 5%;
-}
 
-div.titulo{
-    display: inline-block;  
-}
-
-nav {
+nav#itens {
+    display: block;
     padding: 10px;
     text-align: center;
     border-top: 1px solid black;
@@ -51,17 +34,19 @@ nav {
 
 }
 
-nav a{
-    padding-right:20px ;
-    padding-left: 20px;
+nav#itens  a{
+    background-color: rgba(128, 128, 128, 0.458);
+    display: block;
+    margin: 1px;
+    padding: 5px;
     text-decoration: none;
     color: black;
-
 }
 
-nav a:hover{
+nav#itens a:hover{
     text-decoration: underline;
     color: #004aab;
+    background-color: rgb(241, 241, 241);
 }
 
 main h1{
