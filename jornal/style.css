@@ -55,6 +55,11 @@ main h1{
     padding: 20px;
 }
 
+main p#subtitulo{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 main h2{
     font-size: 1.7em;
     padding: 10px;
@@ -67,6 +72,12 @@ main p{
     line-height: 1.6em;
     text-indent: 20px;
     padding: 10px 20px 10px 20px;
+}
+
+main img.img{
+    display: block;
+    margin: auto;
+    padding: 20px;
 }
 
 div.membros{
