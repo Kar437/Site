@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeArm</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    
+</style>
+<body>
+    <header>
+        <h1>MeArm</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../projetos.html">Projetos</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Visão Geral:</h2>
+            <p>Código para o controle do braço robótico MeArm. Este projeto permite controlar o <a href="https://www.instructables.com/Pocket-Sized-Robot-Arm-meArm-V04/" target="_blank">MeArm</a> utilizando dois módulos joystick conectados em um Arduino, com um controle manual e além do modo automático que movimenta os servos em uma sequência predefinida.</p>
+
+            <h2>Componentes Utilizados:</h2>
+            <ul class="listas">
+                <li>1 x Arduino (ou compatível)</li>
+                <li>4 x Servomotores</li>
+                <li>2 x Módulos joystick</li>
+                <li>1 x Botão</li>
+                <li>1 x Led</li>
+                <li>1 x Capacitor Eletrolítico de 1000uf</li>
+                <li>Resistores, fios e protoboar</li>
+            </ul>
+
+            <p></p>
+
+            <h2>Operação: </h2>
+            <p>
+                <strong>Modo Manual: </strong> Controla o servos usandos os joystick. <br>
+                <strong>Modo Automático: </strong> Pressione o botão para alterar para o modo automático. O LED fica acesso para indicar que o modo automático está ativo. Para retornar ao controle manual, pressione o botão novamente até que o LED se apague.
+            </p>
+            
+            <h2>Observações:</h2>
+                <p>
+                   <ul class="listas">
+                    <li>Lembre-se de verificar os angulos passados para os servos antes de executar o código, evitando que os motores sejam forçados.</li>
+                    <li><strong>Velocidade de Movimento:</strong> Altere a variável <code>velocidade</code> para ajustar a velocidade que os servos se movem.</li>
+                    <li> <strong> Zona Morta: </strong> Modifique a variável <code> zonaMorta </code> para ajustar apartir de qual posição dos joystick os motores serão acionados</li>
+                   </ul>
+                </p>
+
+            <p>Código fonte do projeto, disponievel no GitHub:</p>
+            
+
+                <div class="container">
+                    <a href="https://github.com/Kar437/MeArm" target="_blank"><button class="botao">Código fonte</button></a>
+                </div>
+
+            
+            <h2>Links:</h2>
+            <p><ul class="listas">
+                <li><a href="https://www.instructables.com/Pocket-Sized-Robot-Arm-meArm-V04/" target="_blank">Projeto MeArm</a></li>
+                <li><a href="https://www.tinkercad.com/things/3Cn2Zm6O56a-robot-arm" target="_blank">TinkerCard</a></li>
+            </ul> </p>
+           
+        </article>
+    </main>
+
+    <footer>
+        <h3>Social </h3>
+        <p class="social">
+            <a href="https://github.com/Kar437" target="_blank"><img src="https://icons.iconarchive.com/icons/pictogrammers/material/128/github-icon.png" width="30" height="30"></a>
+        </p>
+
+        <p class="social">
+            <a href="https://www.instagram.com/km.b_7d?utm_source=qr&igsh=MXBjbzNuODZ0ZHRqbQ== " target="_blank"><img src="https://icons.iconarchive.com/icons/iconoir-team/iconoir/128/instagram-icon.png" width="30" height="30">
+            </a>
+        </p>
+
+        <p>Desenvolvido por <a href="https://github.com/Kar437" target="_blank">Kar437</a></p>
+        
+    </footer>
+</body>
+</html>
