@@ -130,6 +130,10 @@ p.citacao {
     padding: 30px;
 }
 
+div.alinhada{
+    text-align: center;
+}
+
 
 footer{
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
