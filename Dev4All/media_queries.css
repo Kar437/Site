@@ -22,6 +22,15 @@ Grandes Telas: acima de 1200px
     menu{
         display: block;
     }
+
+    menu > ul > li{
+        display: inline-block;
+        border: 0cap;
+    }
+
+    menu > ul > li:hover{
+        color: #007BFF;
+    }
     
    
       
@@ -33,6 +42,14 @@ Grandes Telas: acima de 1200px
     }
     menu{
         display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+        border: 0cap;
+    }
+
+    menu > ul > li:hover{
+        color: #007BFF;
     }
    
    
@@ -63,6 +80,14 @@ Grandes Telas: acima de 1200px
     }
     menu{
         display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+        border: 0cap;
+    }
+
+    menu > ul > li:hover{
+        color: #007BFF;
     }
    
    
