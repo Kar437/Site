@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev4All Technology Solutions</title>
+  <style>
+    /* === RESET E BASE === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      color: #222;
+      background-color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    h1, h2, h3 {
+      color: #000;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* === HEADER === */
+    header {
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 10%;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      color: #007BFF;
+      font-size: 24px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    /* === HERO === */
+    .hero {
+      background: linear-gradient(to right, #000 60%, #007BFF);
+      color: #fff;
+      padding: 160px 10% 120px;
+      text-align: left;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      max-width: 600px;
+    }
+
+    .btn {
+      background: #007BFF;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    /* === SEÇÕES === */
+    section {
+      padding: 80px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      color: #007BFF;
+      margin-bottom: 40px;
+    }
+
+    .sobre, .metas {
+      background-color: #f2f2f2;
+    }
+
+    /* === SOBRE === */
+    .sobre-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .sobre-text {
+      flex: 1 1 400px;
+    }
+
+    .sobre-text h3 {
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .sobre-text p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    /* === SERVIÇOS === */
+    .servicos-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+
+    /* === CONTATO === */
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    /* === RODAPÉ === */
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 30px;
+      }
+      .sobre-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Dev4All</h1>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#metodologia">Metodologia</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <h2>Transformamos ideias em soluções digitais</h2>
+    <p>Desenvolvimento de softwares sob medida para o seu negócio.</p>
+    <a href="#contato" class="btn">Fale Conosco</a>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <h2 class="section-title">Sobre Nós</h2>
+    <div class="sobre-container">
+      <div class="sobre-text">
+        <h3>Missão</h3>
+        <p>Transformar ideias em soluções digitais inovadoras, oferecendo serviços de desenvolvimento de softwares e sistemas para empresas.</p>
+        <h3>Visão</h3>
+        <p>Ser referência no mercado de soluções digitais, reconhecida pela inovação, excelência técnica e impacto positivo nos negócios dos clientes.</p>
+        <h3>Valores</h3>
+        <p>Inovação constante; Compromisso com o cliente; Acessibilidade e inclusão; Qualidade e segurança.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <h2 class="section-title">Nossos Serviços</h2>
+    <div class="servicos-cards">
+      <div class="card">
+        <h3>💻 Desenvolvimento de Sistemas</h3>
+        <p>Soluções completas para automação e otimização de processos empresariais.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Aplicativos Personalizados</h3>
+        <p>Apps sob medida, com design intuitivo e tecnologia moderna.</p>
+      </div>
+      <div class="card">
+        <h3>☁️ Integração com a Nuvem</h3>
+        <p>Sistemas conectados e seguros, acessíveis de qualquer lugar.</p>
+      </div>
+      <div class="card">
+        <h3>🔒 Segurança e Manutenção</h3>
+        <p>Proteção de dados, atualizações e suporte contínuo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2 class="section-title">Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Dev4All Technology Solutions. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>

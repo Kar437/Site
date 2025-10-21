@@ -1,0 +1,206 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+/* -----------------------------------------------------------------------------*/
+
+    body {
+      color: #222;
+      background-color: #f2f2f2;
+      scroll-behavior: smooth;
+    }
+
+    h1, h2, h3 {
+      color: #000;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    
+/* --------------------------------  Cabeçalho  ----------------------------------*/
+
+    header {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      
+    }
+
+    header h1 {
+      color: #007BFF;
+      font-size: 30px;
+      padding: 20px;
+    }
+
+    menu {
+      display: none;
+    }
+    
+    menu ul {
+      list-style: none;
+      
+    }
+
+    menu li {
+      padding: 10px;
+      background-color: black;
+      border: 1px solid rgba(97, 97, 97, 0.692);
+      color: rgb(255, 255, 255);
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    #icon{
+        background-color: rgb(255, 255, 255);
+        color:#000;
+        display: block;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+
+/* -----------------------------------------------------------------------------*/
+
+    .hero {
+      background: linear-gradient(to right, #000 30%, #007BFF);
+      color: #fff;
+      padding: 160px 10% 120px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .hero p {
+     padding: 25px;
+     font-size: 18px;
+    }
+
+    .btn {
+      background: #007BFF;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+      
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+   /* --------------------------------  seções  --------------------------------------*/
+    section {
+      padding: 80px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      color: #007BFF;
+      margin-bottom: 40px;
+    }
+
+
+    #resultados {
+      background-color: #f2f2f2;
+  
+}
+
+    #servicos {
+      background-color: #f2f2f2;
+}
+
+/* ---------------------------------  Serviços  --------------------------------------*/
+
+    .servicos-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+
+/* --------------------------------  Contato ---------------------------------------*/
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+  /* ------------------------------  Rodapé  -------------------------------------*/
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 30px;
+      }
+      .sobre-container {
+        flex-direction: column;
+      }
+    }
